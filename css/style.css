@@ -1,0 +1,1131 @@
+@charset "UTF-8";
+/*navbar */
+
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 10px 0px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.nav {
+    padding-top: 10Px;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-toggle {
+	border-radius: 0Px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar-toggle {
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #303030;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #BBE81B;
+
+}
+/*navbar-end */
+
+/*allgemein*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8;
+	color: #F7F5F5;
+	background-color:#E4F5A5;
+	
+}
+
+.h2,h2 {
+	color: #BBE81B;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.thumbnail {
+	margin-bottom:0px;
+}
+.margin {margin-bottom: 45px;}.head {
+}
+.gruen {
+	background-color:#BBE81B;
+}
+/*allgemein-end*/
+
+/*button*/
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+	background-color:#303030;
+  border: 2px solid #ffffff ;
+  border-radius: 3px;
+ color: #ffffff;
+ 
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #303030;
+  text-decoration: none;
+	background-color: #BBE81B; 
+	border: 2px solid #303030 ;
+  border-radius: 3px;
+}
+
+/*button-end*/
+
+
+
+.box p,.p{
+	font-size: 1.2em;
+	color: #303030;
+	padding-top:20%;
+	padding-bottom: 10%;
+	padding-left:5%;
+	padding-right: 5%;
+}
+
+.caption .animated h4 {
+	color:#303030;
+	
+}
+
+.headertext  h3{
+	color:#303030;
+	margin-top: 0Px; 
+	
+}
+
+
+/*for mobile */
+@media only screen and (max-width: 415px ) {
+	
+.headertext  h3{
+	font-size: 18px;
+	}
+.spalte {
+  column-count: 1;
+}
+.bg-1 {
+	height:500px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/hopfen.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.header1{
+	height:250px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header2{
+	height:250px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-02.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header3{
+	height:250px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-03.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header4{
+	height:250px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-04.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+	.header5{
+	height:250px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-05.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+	.header6{
+	height:250px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-06.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.headertext{
+	padding-top: 5em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container-fluid.bg-1.text-center h1 {
+	color: #A5CA22;
+	font-size: 70px;
+	height: auto;
+	text-align: left;
+	
+}
+.mitte {
+	padding-top: 100px;
+	border-style: none;
+}
+.margin2 {
+	padding-top: 70px;
+    padding-bottom: 70px;
+	
+}
+
+.links {
+	height: 20em;
+	padding-top:2em;
+	
+}
+.rechts	{
+	height: 20em;
+	background-image: url(../img/malz.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+	
+/* Zitate */
+.zitat {
+	height: 200px;
+	background-color: #FFFEDA;
+	background-image: url(../img/zitat1-mobil.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat2 {
+	height: 200px;
+	background-color: #FFFEDA;
+	background-image: url( ../img/zitat-mobil2.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat3 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/zitat-mobil3.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat4 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/zitat-mobil4.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat5 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/zitat-mobil5.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+	
+/* Einleitungen */
+.einleitung {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/Einleitung01-mobil.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.einleitung2 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/Einleitung02-mobil.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.einleitung3 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/Einleitung03-mobil.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.gal-item-2 .box {
+    height: 300px;
+
+}
+	h5,
+.h5 {
+	padding-top:60px;
+	font-size: 30px;
+	color: #303030;
+}
+ .gal-item-2 p
+{
+	padding-top:20px;
+	font-size:16px;
+	margin: 0 0 10px;
+	color: #303030;
+}
+ .info p {
+	padding-top:4em;
+	margin: 0 0 10px;
+	color: #303030;
+}
+.carousel {
+    display:none;
+	
+}
+.herkunft .gal-item .box {
+  height: 250px;
+	}
+.headertext h2,.h2{
+		color:#ffffff;
+}
+.bierbeschreibungen h4{
+	color: #303030;
+	text-align: left;
+	padding-left:10px;
+		
+	}
+	.bierbeschreibungen p{
+		font-size:13px;
+		padding-top: 0px;
+		text-align: left;
+		margin: 0 0 0 0;
+		padding-left:10px;
+	}
+}
+/* for tablet */
+	@media only screen and (min-width: 415px ) {
+
+.spalte {
+  column-count: 2;
+}
+.bg-1 {
+	height:700px;
+	background-color: #DEDEDE;
+	background-image: url(  ../img/hopfen.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	}
+/* Zitate */
+.zitat {
+	height: 200px;
+	background-color: #FFFEDA;
+	background-image: url(../img/zitat1-mobil.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat2 {
+	height: 200px;
+	background-color: #FFFEDA;
+	background-image: url( ../img/zitat-mobil2.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat3 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/zitat-mobil3.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat4 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/zitat-mobil4.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat5 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/zitat-mobil5.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+	
+/* Einleitungen */
+.einleitung {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/Einleitung01-mobil.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.einleitung2 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/Einleitung02-mobil.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.einleitung3 {
+	height: 200px;
+	background-color: #303030;
+	background-image: url(../img/Einleitung03-mobil.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+		
+.header1{
+	height:260px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header2{
+	height:260px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-02.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header3{
+	height:260px;
+	background-color: #303030;
+	background-image: url( ../img/header-03.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header4{
+	height:260px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-04.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+		.header5{
+	height:260px;
+	background-color: #303030;
+	background-image: url( ../img/header-05.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header6{
+	height:260px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-06.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+		
+.headertext{
+padding-top: 6em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container-fluid.bg-1.text-center h1 {
+	color: #A5CA22;
+	font-style: bold;
+	font-size: 70px;
+	height: auto;
+	text-align: left;
+	
+}
+.mitte {
+	padding-top: 200Px;
+	border-style: none;
+}
+.margin2 {
+ 
+
+	padding-top: 70px;
+    padding-bottom: 70px;
+}
+		
+.links {
+	height: 20em;
+	padding-top: 2em;
+	
+}
+.rechts	{
+	height: 20em;
+	background-image: url(../img/malz.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+		
+.gal-item-2 .box {
+    height: 300px;
+
+}
+h5,
+.h5 {
+	padding-top:60px;
+	font-size: 30px;
+	color: #303030;
+}
+ .gal-item-2 p
+{
+	padding-top:20px;
+	font-size:16px;
+	margin: 0 0 10px;
+	color: #303030;
+}
+.info p {
+	padding-top:4em;
+}
+.herkunft {
+	display: none;	
+		}
+		
+.headertext h2,.h2{
+	color:#ffffff;
+}
+	.bierbeschreibungen h4{
+	color: #303030;
+	text-align: left;
+	padding-left:10px;
+		
+	}
+	.bierbeschreibungen p{
+		font-size:13px;
+		padding-top: 0px;
+		text-align: left;
+		margin: 0 0 0 0;
+		padding-left:10px;
+	}
+}
+
+
+/* for desktop */
+	@media only screen and (min-width: 967px ) {
+.spalte {
+  column-count: 3;
+}
+.bg-1 {
+	height:700px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/hopfen.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		
+	
+}
+.header1{
+	height:300px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header2{
+	height:300px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-02.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header3{
+	height:300px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-03.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header4{
+	height:300px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-04.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+		.header5{
+	height:300px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-05.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header6{
+	height:300px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-06.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.headertext{
+padding-top: 7em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container-fluid.bg-1.text-center h1 {
+	color: #A5CA22;
+	font-style: bold;
+	font-size: 70px;
+	height: auto;
+	text-align: left;
+	
+}
+.mitte {
+	padding-top: 250px;
+	border-style: none;
+}
+.margin2 {
+	padding-top: 70px;
+    padding-bottom: 70px;
+}
+		
+.links {
+	height: 20em;
+	padding:2em;
+}
+.rechts	{
+	height: 20em;
+	background-image: url(../img/malz.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+		
+h5,
+.h5 {
+	padding-top:60px;
+	font-size: 40px;
+	color: #303030;
+}
+.gal-item-2 p{
+	padding-top: 20px;
+	font-size: 20px;
+	margin: 0 0 10px;
+	color: #303030;
+	text-decoration: none;
+}
+.herkunft {
+		display: none;	
+		}
+
+/* zitate */
+.zitat {
+	height:300px;
+	background-color: #FFFEDA;
+	background-image: url( ../img/zitat1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.zitat2 {
+	height:300px;
+	background-color: #FFFEDA;
+	background-image: url( ../img/zitat2.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat3 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/zitat3.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat4 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/zitat4.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zitat5 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/zitat5.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/* Einleitung */	
+.einleitung {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/Einleitung01.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.einleitung2 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/Einleitung02.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.einleitung3 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/Einleitung03.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	h2,.h2 {
+	font-size: 4em; }	
+		
+.headertext h2,.h2{
+	color:#ffffff;
+}
+		.bierbeschreibungen h4{
+	color: #303030;
+	text-align: left;
+	padding-left:10px;
+		
+	}
+	.bierbeschreibungen p{
+		font-size:13px;
+		padding-top: 0px;
+		text-align: left;
+		margin: 0 0 0 0;
+		padding-left:10px;
+	}
+		
+}
+
+
+/* for large desktop */
+	@media only screen and (min-width: 1500px ) {
+.bg-1 {
+	height:1100px;
+	background-color: #DEDEDE;
+	background-image: url(  ../img/hopfen.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		
+	
+}
+.header1{
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header2{
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-02.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header3{
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-03.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header4{
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-04.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+		.header5{
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-05.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.header6{
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url( ../img/header-06.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+.headertext{
+	padding-top: 10em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.container-fluid.bg-1.text-center h1 {
+	color: #A5CA22;
+	font-style: bold;
+	font-size: 70px;
+	height: auto;
+	text-align: left;
+	
+}
+.mitte {
+	padding-top: 480px;
+	border-style: none;
+}
+.margin2 {
+ 
+
+	padding-top: 70px;
+    padding-bottom: 70px;
+}
+	
+.links {
+	height: 35em;
+	padding:auto;
+	
+}
+.rechts	{
+	height: 35em;
+	background-image: url(../img/malz.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gal-item-2 .box {
+    height: 350px;
+
+		}
+.gal-item-2 .startside{
+    height: 500px;
+
+		}
+h5,
+.h5 {
+	padding-top:60px;
+	font-size: 60px;
+	color: #303030;
+}
+ .info p {
+	padding-top:4em;
+	margin: 0 0 10px;
+	color: #303030;
+}
+.gal-item-2 .startside p {
+	padding-top:20px;
+	font-size:28px;
+	margin: 0 0 10px;
+	color: #303030;
+}
+.herkunft {
+	display: none;	
+	}
+
+		
+/* Einleitung */	
+.einleitung {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/Einleitung01.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.einleitung2 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/Einleitung02.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.einleitung3 {
+	height:300px;
+	background-color: #303030;
+	background-image: url( ../img/Einleitung03.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grau {
+	font-size: 1.5em;
+		}
+.h3 {
+	font-size: 1.5em;
+		}
+h2,.h2 {
+	font-size: 6em;
+	text-transform: uppercase;
+	color:#BBE81B;
+	}
+		
+		
+.headertext h2,.h2{
+	color:#ffffff;
+}
+	.bierbeschreibungen h4{
+	margin-top: 2em;
+	color: #303030;
+	text-align: left;
+	padding-left:10px;
+		
+	}
+	.bierbeschreibungen p{
+		font-size:13px;
+		padding-top: 0px;
+		text-align: left;
+		margin: 0 0 0 0;
+		padding-left:10px;
+	}	
+		
+}
+
+
+/* gallerie  */
+
+.gal-container{
+	padding: 12px;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 0px;
+}
+.gal-item .box{
+	height: 350px; 
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item a:focus{
+	outline: none;
+}
+/* overlay auf bild */
+.gal-item a:after{
+	content:"\e003";
+	font-family: 'Glyphicons Halflings';
+	opacity: 0;
+	background-color: rgba(187,232,27,0.80);
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+	opacity: 1;
+}
+
+/* gal-item-2  */
+
+.gal-item-2{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+
+
+/* Hintergrund für Bild frei */
+.modal-open .gal-container .modal{
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+	padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(187,232,27,1.00);
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+	outline: none;
+}
+.modal-open .gal-item button.close span{
+	position: relative;
+	top: -3px;
+	font-weight: lighter;
+	text-shadow:none;
+}
+.gal-container .modal-dialogue{
+	width: 80%;
+}
+
+
+/* bildbeschreibung */
+.gal-container .description{
+	position: relative;
+	padding: 10px 25px;
+	background-color: rgba(187,232,27,0.80);
+	color: #303030;
+	text-align: left;
+}
+.gal-container .description h4{
+	margin:0px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+     /* -webkit-transform: translate3d(0, -100px, 0);*/
+   transform: translate3d(0, -100px, 0); 
+    opacity: 1;
+}
+@media (min-width: 768px) {
+.gal-container .modal-dialog {
+    width: 55%;
+    margin: 50 auto;
+}
+}
+@media (max-width: 768px) {
+    .gal-container .modal-content{
+        height:250px;
+    }
+}
+
+/* gallerie-end*/
+
+/* fadein */
+.thumbnail {
+ position:relative;
+ overflow:hidden;
+ padding: 0px;
+	border: none;
+	border-radius: 0px;
+	background-color: #E4F5A5;
+}
+ 
+.caption {
+ position:absolute;
+ top:0;
+ right:0;
+ background:rgba(187,232,27,0.78);
+ width:100%;
+ height:100%;
+ padding:0%;
+ display: none;
+ text-align:center;
+ color:#fff !important;
+ z-index:2;
+}
+ /* fadein-end*/
+
+/*formatierung*/
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left: 20%;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+    right: 25%;
+}
+ul, ol {
+    margin-bottom: -8px;
+}
+.modal-content {
+    background-color: transparent;
+}
+.grau {
+	padding-top:40Px;
+	Padding-bottom:40Px;
+	background-color: #303030;
+		
+}
+
+.a, .h5,h5,.p,p {
+	text-decoration:none;
+}
+.datenschutz h3{
+	color: #303030;
+}
+.datenschutz p{
+	color: #303030;
+}
+.datenschutz{
+	margin-top: -4.5em;
+	margin-bottom: 3em;
+}
+.footer {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #BBE81B;
+}
+.footer a{
+	color:#fff;
+}
+a:hover, a:focus {
+    color: #303030;
+	text-decoration: none;
+}
+
+
+
+/*formatierung-end*/
