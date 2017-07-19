@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bier</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link href="animate.css" rel="stylesheet" type="text/css">
+  </head>
+  
+   <body>
+<h1> hello world </h1>
+<p> huhu </p>
+        </body>
+<footer>
+    
+</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+	<script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+$(document).ready(function(){
+ 
+ $( ".thumbnail" )
+ .mouseenter(function() {
+ $(this).find('.caption').removeClass("fadeOutUp").addClass("fadeInDown").show();
+ })
+ .mouseleave(function() {
+ $(this).find('.caption').removeClass("fadeInDown").addClass("fadeOutUp");
+ });
+});
+	</script>
+ 
+  
+</html>>
