@@ -35,7 +35,7 @@
 
 /*allgemein*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	line-height: 1.8;
 	color: #F7F5F5;
 	background-color:#E4F5A5;
@@ -1126,6 +1126,19 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/lato-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('/fonts/lato-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/lato-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/lato-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/lato-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/lato-v14-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
 
 
 /*formatierung-end*/
